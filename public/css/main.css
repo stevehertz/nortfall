@@ -1,0 +1,323 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 3rem;
+  color: #003366;
+}
+
+.navbar {
+  padding: 0 !important;
+  background-color: #182957 !important;
+}
+.navbar .navbar-brand {
+  padding: 10px !important;
+  max-width: 30%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .navbar-brand img {
+  background-color: #fff;
+  max-width: 100%;
+  width: 40%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 5px;
+  margin: 0 0 !important;
+}
+.navbar ul li {
+  font-size: 20px;
+  margin-right: 3rem;
+  color: #000 !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+.carousel .carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel .carousel-item {
+  height: 36rem;
+}
+.carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 36rem;
+}
+
+.works .col-lg-3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  /* rtl:begin:ignore */
+  /* rtl:end:ignore */
+}
+.works .col-lg-3 .work-1 {
+  background-color: #003366;
+  color: #fff;
+  padding: 0;
+}
+.works .col-lg-3 .work-2 {
+  background-color: #003366;
+  padding: 0;
+  color: #fff;
+}
+.works .col-lg-3 .work-3 {
+  background-color: #003366;
+  padding: 0;
+  color: #fff;
+}
+.works .col-lg-3 .work-4 {
+  background-color: #003366;
+  padding: 0;
+  color: #fff;
+}
+.works .col-lg-3 .works-images {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 0.5rem;
+}
+.works .col-lg-3 .works-images img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.works .col-lg-3 .works-content {
+  padding: 10px;
+}
+.works .col-lg-3 h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.works .col-lg-3 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-size: 14px;
+}
+
+.projects {
+  margin-top: 8rem;
+  background-color: #dee0e1;
+  padding: 3rem;
+}
+.projects .featured-projects .featured-projects-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.projects .featured-projects .featured-projects-images {
+  text-align: center;
+}
+.projects .featured-projects .featured-projects-images:hover {
+  color: #003366;
+}
+.projects .featured-projects .featured-projects-images .featured-img {
+  height: 500px;
+  width: 600px;
+}
+.projects .featured-projects .featured-projects-images .featured-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .featured-projects .featured-projects-images .featured-projects-images-heading {
+  line-height: 1;
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+.portfolio {
+  margin-top: 8rem;
+}
+.portfolio .portfolio-heading {
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+}
+.portfolio .portfolio-item {
+  margin: 2rem 0 0 2rem;
+}
+.portfolio .portfolio-item img {
+  width: 300px;
+  height: 200px;
+}
+
+.news {
+  margin-top: 8rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: #dee0e1;
+}
+.news .news-heading {
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.news .featurette {
+  /* Thin out the marketing headings */
+}
+.news .featurette .featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -0.05rem;
+}
+
+.featurette .featurette-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Do not scale the image */
+}
+
+.rf {
+  width: 100%;
+  background-color: #4d535c;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+.rf .col-lg-3 {
+  margin: 0 auto;
+}
+.rf logo {
+  margin-left: 10px;
+}
+.rf a.rf-logo {
+  margin-bottom: 3rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 30px;
+}
+.rf a.rf-logo:hover {
+  color: #003366;
+}
+.rf .contacts ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.rf .contacts ul li {
+  list-style: none;
+  margin: 0;
+  left: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #dee0e1;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .projects {
+    margin-top: 4rem;
+    background-color: #dee0e1;
+    padding: 1rem;
+  }
+  .projects .featured-projects .featured-projects-images {
+    text-align: center;
+  }
+  .projects .featured-projects .featured-projects-images .featured-img {
+    width: 100%;
+    height: 200px;
+  }
+  .projects .featured-projects .featured-projects-images .featured-img img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .projects .featurette {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+  .projects {
+    margin-top: 4rem;
+    background-color: #dee0e1;
+    padding: 1rem;
+  }
+  .projects .featured-projects .featured-projects-images {
+    text-align: center;
+  }
+  .projects .featured-projects .featured-projects-images .featured-img {
+    width: 100%;
+    height: 200px;
+  }
+  .projects .featured-projects .featured-projects-images .featured-img img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .featurette {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .projects .featured-projects-heading {
+    font-size: 1.5rem;
+  }
+  .projects .featured-projects-images .featured-img {
+    height: 400px;
+    width: 100%;
+  }
+  .projects .featured-projects-images .featured-img img {
+    width: 30%;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+  .projects .featured-projects-heading {
+    font-size: 1.5rem;
+  }
+  .projects .featured-projects-images .featured-img {
+    height: 400px;
+    width: 100%;
+  }
+  .projects .featured-projects-images .featured-img img {
+    width: 30%;
+  }
+}
