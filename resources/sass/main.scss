@@ -16,21 +16,30 @@ $featuredColor: #9a9da1;
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-    padding-top: 3rem;
+    // padding-top: 3rem;
     // padding-bottom: 3rem;
     color: $mainColor;
 }
 
 .navbar{
     padding: 0 !important;
-    background-color: #182957 !important;
+    transition: all 0.5s;
+    &.navbar-scrolled {
+        background-color: #182957 !important;
+        box-shadow: 0 3px 10px #182957 !important;
+        .navbar-brand{
+            img{
+                background-color: #fff;
+            }
+        }
+    }
     .navbar-brand{
         padding: 10px !important;
         max-width: 30%;
         margin: 0 !important;
         padding: 0 !important;
         img{
-            background-color: #fff;
+            // background-color: #fff;
             max-width: 100%;
             width: 40%;
             object-fit: contain;
@@ -52,6 +61,8 @@ body {
 
 /* Carousel base class */
 .carousel {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
     margin-bottom: 4rem;
     /* Since positioning the image, we need to help out the caption */
     .carousel-caption {

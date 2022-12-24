@@ -11,13 +11,19 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-  padding-top: 3rem;
   color: #003366;
 }
 
 .navbar {
   padding: 0 !important;
+  transition: all 0.5s;
+}
+.navbar.navbar-scrolled {
   background-color: #182957 !important;
+  box-shadow: 0 3px 10px #182957 !important;
+}
+.navbar.navbar-scrolled .navbar-brand img {
+  background-color: #fff;
 }
 .navbar .navbar-brand {
   padding: 10px !important;
@@ -26,7 +32,6 @@ body {
   padding: 0 !important;
 }
 .navbar .navbar-brand img {
-  background-color: #fff;
   max-width: 100%;
   width: 40%;
   -o-object-fit: contain;
@@ -44,6 +49,8 @@ body {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   margin-bottom: 4rem;
   /* Since positioning the image, we need to help out the caption */
   /* Declare heights because of positioning of img element */
