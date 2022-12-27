@@ -11,7 +11,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 body {
-  color: #003366;
+  color: #182957;
 }
 
 .navbar {
@@ -24,6 +24,9 @@ body {
 }
 .navbar.navbar-scrolled .navbar-brand img {
   background-color: #fff;
+}
+.navbar.navbar-scrolled ul li a {
+  color: #fff !important;
 }
 .navbar .navbar-brand {
   padding: 10px !important;
@@ -42,7 +45,9 @@ body {
 .navbar ul li {
   font-size: 20px;
   margin-right: 3rem;
-  color: #000 !important;
+}
+.navbar ul li a {
+  color: #182957 !important;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -51,7 +56,7 @@ body {
 .carousel {
   margin-top: 0 !important;
   padding-top: 0 !important;
-  margin-bottom: 4rem;
+  margin-bottom: 0 !important;
   /* Since positioning the image, we need to help out the caption */
   /* Declare heights because of positioning of img element */
 }
@@ -70,29 +75,41 @@ body {
   height: 36rem;
 }
 
+.detailsSesction {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.detailsSesction .detailsImage img {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.detailsSesction .detailsInfo {
+  background-size: cover;
+}
+
+.works {
+  background-color: #182957;
+}
 .works .col-lg-3 {
-  margin-bottom: 1.5rem;
   text-align: center;
   /* rtl:begin:ignore */
   /* rtl:end:ignore */
 }
 .works .col-lg-3 .work-1 {
-  background-color: #003366;
   color: #fff;
   padding: 0;
 }
 .works .col-lg-3 .work-2 {
-  background-color: #003366;
   padding: 0;
   color: #fff;
 }
 .works .col-lg-3 .work-3 {
-  background-color: #003366;
   padding: 0;
   color: #fff;
 }
 .works .col-lg-3 .work-4 {
-  background-color: #003366;
   padding: 0;
   color: #fff;
 }
@@ -121,7 +138,6 @@ body {
 }
 
 .projects {
-  margin-top: 8rem;
   background-color: #dee0e1;
   padding: 3rem;
 }
@@ -138,7 +154,7 @@ body {
   text-align: center;
 }
 .projects .featured-projects .featured-projects-images:hover {
-  color: #003366;
+  color: #182957;
 }
 .projects .featured-projects .featured-projects-images .featured-img {
   height: 500px;
@@ -223,7 +239,7 @@ body {
   font-size: 30px;
 }
 .rf a.rf-logo:hover {
-  color: #003366;
+  color: #182957;
 }
 .rf .contacts ul {
   margin-left: 0;
