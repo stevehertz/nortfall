@@ -14,8 +14,13 @@
     <link href="{{ asset('storage/logo/favicon-32x32.png') }}" rel="icon" sizes="32x32" type="image/png" />
     <link href="{{ asset('storage/logo/favicon-16x16.png') }}" rel="icon" sizes="16x16" type="image/png" />
     <link href="{{ asset('storage/logo/favicon.ico') }}" rel="icon" /><!-- fonts -->
+    <link rel="stylesheet" href="{{ asset('vendor/aos/aos.css') }}">
     <link href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('fonts/Ionicons/css/ionicons.min.css') }}" rel="stylesheet" /><!-- Bootstrap core CSS -->
+    <link href="{{ asset('fonts/Ionicons/css/ionicons.min.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ asset('vendor/swiper/swiper-bundle.min.css') }}">
+    <!-- Bootstrap core CSS -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('css/main.css') }}" rel="stylesheet" />
 
@@ -106,6 +111,11 @@
         @include('layouts.footer')
         
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{{ asset('vendor/aos/aos.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     @yield('scripts')
 </body>

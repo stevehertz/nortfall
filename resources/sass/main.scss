@@ -5,7 +5,7 @@ $mainColor     : #182957;
 $blueColor     : #003366;
 $featuredColor : #9a9da1;
 $secondaryColor: #f58320;
-$textColor: #4d535c;
+$textColor     : #4d535c;
 
 .bd-placeholder-img {
     font-size          : 1.125rem;
@@ -287,9 +287,9 @@ body {
     }
 
     .blog-image {
-        width           : 100%;
-        align-items     : center;
-        text-align      : center;
+        width      : 100%;
+        align-items: center;
+        text-align : center;
 
         img {
             align-items: center;
@@ -302,36 +302,66 @@ body {
     }
 
     .blog-content {
-        width           : 100%;
-        align-items     : center;
-        text-align      : center;
+        width      : 100%;
+        align-items: center;
+        text-align : center;
+
         .meta {
-            padding-top: 1rem;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            width: 100%;
-            align-items: center;
-            align-content: space-between;
+            padding-top    : 1rem;
+            display        : flex;
+            flex-direction : row;
+            flex-wrap      : nowrap;
+            width          : 100%;
+            align-items    : center;
+            align-content  : space-between;
             justify-content: center;
-            color: $textColor;
+            color          : $textColor;
+
             div {
                 font-size: 14px;
-                flex: 1 1;
-                a{
+                flex     : 1 1;
+
+                a {
                     color: $textColor;
-                    &:hover{
+
+                    &:hover {
                         color: $secondaryColor;
                     }
                 }
             }
         }
 
-        .blog-title{
+        .blog-title {
             width: 100%;
-            a{
+
+            a {
                 text-decoration: none;
-                color: $mainColor;
+                color          : $mainColor;
+            }
+        }
+    }
+}
+
+.partners {
+    // padding-bottom  : 1rem;
+    padding-top     : 2rem;
+    background-color: $whiteColor;
+
+    .partners-heading {
+        font-weight  : 300;
+        line-height  : 1;
+        text-align   : center;
+        margin-bottom: 3rem;
+    }
+
+    .partners-logo {
+        .partner-logo-slide {
+            z-index: 100;
+            img {
+                max-width : 100%;
+                max-height: 100%;
+                object-fit: cover;
+
             }
         }
     }

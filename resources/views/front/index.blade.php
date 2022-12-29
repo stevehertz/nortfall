@@ -275,7 +275,7 @@
         </div>
     </div>
 
-    <div class="container-fluid blogs">
+    {{-- <div class="container-fluid blogs">
         <div class="container">
 
             <div class="row">
@@ -352,22 +352,96 @@
             </div>
 
         </div>
+    </div> --}}
+
+    <div class="container-fluid partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="partners-heading">Our Partners</h2>
+                    <hr class="rf-line" />
+                </div>
+            </div>
+            <div class="clients-slider swiper">
+                <div class="row partners-logo">
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/abb-logo.png') }}" alt="">
+                    </div>
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/ensmart.png') }}" alt="">
+                    </div>
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/hitach.png') }}" alt="">
+                    </div>
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/png-clipart-honeywell-nyse-hon-industry-s-c-a-m-e-sistemi-s-r-l-others-text-logo.png') }}"
+                            alt="">
+                    </div>
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/schneider_electric_2007.svg.png') }}" alt="">
+                    </div>
+                    <div class="col-2 partner-logo-slide">
+                        <img src="{{ asset('storage/partners/siemens.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="partners-logo-pagination"></div>
+            </div>
+        </div>
     </div>
-
-
-    <div class="container-fluid partners"></div>
 @endsection
 
 @section('scripts')
     <script>
-        const navEl = document.querySelector('.navbar');
+        $(function() {
+            const navEl = document.querySelector('.navbar');
 
-        window.addEventListener('scroll', function() {
-            if (window.scrollY >= 100) {
-                navEl.classList.add('navbar-scrolled')
-            } else if (window.scrollY < 100) {
-                navEl.classList.remove('navbar-scrolled');
-            }
+            window.addEventListener('scroll', function() {
+                if (window.scrollY >= 100) {
+                    navEl.classList.add('navbar-scrolled')
+                } else if (window.scrollY < 100) {
+                    navEl.classList.remove('navbar-scrolled');
+                }
+            });
+
+            /**
+             * Clients Slider
+             */
+            new Swiper('.clients-slider', {
+                speed: 400,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false
+                },
+                slidesPerView: 'auto',
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                    clickable: true
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    480: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    },
+                    640: {
+                        slidesPerView: 4,
+                        spaceBetween: 20
+                    },
+                    992: {
+                        slidesPerView: 6,
+                        spaceBetween: 20
+                    }
+                }
+            });
+
+
+
+
         });
     </script>
 @endsection
