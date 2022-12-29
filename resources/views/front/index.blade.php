@@ -1,127 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img alt="" src="{{ asset('storage/sliding/multigrid.png') }}" />
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <div class="text-white">
-                                <h1>
-                                    <strong>
-                                        Outsource business power needs by utilizing data centers.
-                                    </strong>
-                                </h1>
-                                <p>
-                                    We will help your business outsource its power needs to relieve you the
-                                    stress of technological maintenance and instead focus on consumer
-                                    objectives.
-                                </p>
-                                <p>
-                                    <a class="btn btn-lg btn-primary" href="storage/sliding/IsolationTransformer EN.pdf">
-                                        Learn more
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img alt="" src="{{ asset('storage/sliding/smart-city.png') }}" />
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <div class="text-white">
-                                <h1><strong>Multigrid System Solutions</strong></h1>
-                                <p>
-                                    We ensure efficient Hybrid Power Conversion with System integrated with
-                                    DC/DC converter
-                                </p>
-                                <p>
-                                    <a class="btn btn-lg btn-primary" href="storage/sliding/MultiGrid-Hybrid.pdf">
-                                        Learn more
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img alt="" src="{{ asset('storage/sliding/ev-charging.png') }}" />
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <div class="text-white">
-                                <h1><strong>EV Charging Solutions</strong></h1>
-                                <p>We ensure efficient EV Charging.</p>
-                                <p><a class="btn btn-lg btn-primary"
-                                        href="storage/sliding/Ensmart Power EV Charging Power Module.pdf">Learn
-                                        more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img alt="" src="{{ asset('storage/sliding/server-room.png') }}" />
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <div class="text-white">
-                                <h1><strong>Data Center Power BackUp Solutions</strong></h1>
-                                <p>
-                                    We will help your business outsource its power needs to relieve you the
-                                    stress of technological maintenance and instead focus on consumer
-                                    objectives.
-                                </p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <img alt="" src="{{ asset('storage/sliding/imageone.jpg') }}" />
-                <div class="carousel-caption d-none d-md-block">
-                    <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <div class="text-white">
-                                <h1><strong>Solar System Solutions</strong></h1>
-                                <p>
-                                    We will help your business outsource its power needs to relieve you the
-                                    stress of technological maintenance and instead focus on consumer
-                                    objectives.
-                                </p>
-                                <p><a class="btn btn-lg btn-primary" href="storage/sliding/Solar - ENS72-18X-1.pdf">Learn
-                                        more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    @include('layouts.hero')
 
     <div class="container-fluid detailsSesction">
         <div class="container">
@@ -130,19 +10,20 @@
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-mdb-interval="5">
-                                <img src="{{ asset('storage/sliding/ev-grid.png')}}" class="w-70px" />
+                                <img src="{{ asset('storage/sliding/ev-grid.png') }}" class="w-70px" />
                             </div>
                             <div class="carousel-item" data-mdb-interval="5">
-                                <img src="{{ asset('storage/sliding/multigrid.png')}}" class="w-70px" />
-                            </div>  
+                                <img src="{{ asset('storage/sliding/multigrid.png') }}" class="w-70px" />
+                            </div>
                             <div class="carousel-item" data-mdb-interval="5">
-                                <img src="{{ asset('storage/sliding/server-room.png')}}" class="w-70px" />
+                                <img src="{{ asset('storage/sliding/server-room.png') }}" class="w-70px" />
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div class="col-md-6 detailsInfo" style="background-image: url('{{ asset('storage/sliding/imageseven.jpg') }}')">
+                <div class="col-md-6 detailsInfo"
+                    style="background-image: url('{{ asset('storage/sliding/imageseven.jpg') }}')">
                     <div>
                         <br>
                         <br>
@@ -218,7 +99,8 @@
                                         src="{{ asset('storage/heading/imagethree.jpg') }}" /></div>
                                 <h2><strong>Low and Medium Energy Storage Systems </strong></h2>
                                 <p class="pt-3">Save your business operational costs in powering the grid, as well as
-                                    save money for electricity consumers by using our energy storage systems.<br> <a href="#">Read More &raquo; </a></p>
+                                    save money for electricity consumers by using our energy storage systems.<br> <a
+                                        href="#">Read More &raquo; </a></p>
                                 <br>
                             </div>
                         </div>
@@ -296,8 +178,7 @@
                 <div class="col-md-3">
                     <div class="portfolio-item">
                         <a href="#">
-                            <img alt="" class="img-fluid"
-                                src="{{ asset('storage/portfolio/imagetwo.jpg') }}" />
+                            <img alt="" class="img-fluid" src="{{ asset('storage/portfolio/imagetwo.jpg') }}" />
                         </a>
                     </div>
                 </div>
@@ -394,83 +275,87 @@
         </div>
     </div>
 
-    <div class="container-fluid-contact mb-3" id="contact_us">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mt-4 p-5 bg-dark text-white rounded">
-
-                    <h2 class="contact-heading" style="text-align:center">Contact US</h2>
-                    <hr class="px-3" />
-                    <div class="container pt-4" style="text-align:center">
-                        <p>49 Riverside Drive-P.O Box 35509-00100<br />
-                            <strong>Nairobi, Kenya</strong><br />
-                            <strong>E-mail us on:</strong> inquiry@nortfallsystems.co.ke,
-                            info@nortfallsystems.co.ke
-                        </p>
-                        <ul>
-                            <li>Tel: +254 (020)8008081</li>
-                            <li>Mobile: +254 722345782, 733345782</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FOOTER -->
-
-    <div class="container-fluid rf bg-dark">
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-3 logo">
-                    <a class="rf-logo" href="{{ route('home') }}">
-                        NortFall System
-                    </a>
-
-                    <hr class="rf-line" />
-                    <p>Nortfall Systems Limited, is a leading distributor and reseller of renewable energy
-                        solutions, including Scada systems and an integrator of a wide range of
-                        telecommunications solutions.</p>
-                </div>
-
-                <div class="col-lg-3">
-                    <h5>About</h5>
-
-                    <ul class="list-unstyled">
-                        <li><a href="#">Team</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="col-lg-3">
-                    <h5>Social</h5>
-
-                    <div class="row">
-                        <div class="col-md-4">
-
-                        </div>
-
-                        <div class="col-md-4"></div>
-
-                        <div class="col-md-4"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer class="container-fluid">
+    <div class="container-fluid blogs">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="float-end"><a href="#">Back to top</a></p>
 
-                    <p>&copy; 2DC3E22 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a
-                            href="#">Terms</a></p>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="blog-heading">Recent Blog</h2>
+                    <hr class="rf-line" />
                 </div>
             </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-12">
+                    <div class="blog-image">
+                        <img src="{{ asset('storage/blog/image_1.jpg') }}" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="meta mb-3">
+                            <div><a href="#">Oct. 29, 2019</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div>
+                                <a href="#" class="meta-chat">
+                                    <i class="fa fa-envelope"></i> 3
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="blog-title mt-2">
+                            <a href="#">Why Lead Generation is Key for Business Growth</a>
+                        </h3>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="blog-image">
+                        <img src="{{ asset('storage/blog/image_2.jpg') }}" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="meta mb-3">
+                            <div><a href="#">Oct. 29, 2019</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><i class="fa fa-envelope"></i> 3</a></div>
+                        </div>
+                        <h3 class="blog-title mt-2">
+                            <a href="#">Why Lead Generation is Key for Business Growth</a>
+                        </h3>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="blog-image">
+                        <img src="{{ asset('storage/blog/image_3.jpg') }}" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="meta mb-3">
+                            <div><a href="#">Oct. 29, 2019</a></div>
+                            <div><a href="#">Admin</a></div>
+                            <div><a href="#" class="meta-chat"><i class="fa fa-envelope"></i> 3</a></div>
+                        </div>
+                        <h3 class="blog-title mt-2">
+                            <a href="#">Why Lead Generation is Key for Business Growth</a>
+                        </h3>
+                        <p>
+                            <a href="#" class="btn btn-primary">Read more</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-    </footer>
-    <!--END FOOTER-->
+    </div>
+
+
+    <div class="container-fluid partners"></div>
 @endsection
 
 @section('scripts')

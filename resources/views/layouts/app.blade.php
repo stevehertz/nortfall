@@ -10,10 +10,10 @@
     <meta name="theme-color" content="#003366">
     <title>Nortfall Systems</title>
     <!-- Favicons -->
-    <link href="{{ asset('storage/logo/apple-touch-icon.png')}}" rel="apple-touch-icon" sizes="180x180" />
-    <link href="{{ asset('storage/logo/favicon-32x32.png')}}" rel="icon" sizes="32x32" type="image/png" />
-    <link href="{{ asset('storage/logo/favicon-16x16.png')}}" rel="icon" sizes="16x16" type="image/png" />
-    <link href="{{ asset('storage/logo/favicon.ico')}}" rel="icon" /><!-- fonts -->
+    <link href="{{ asset('storage/logo/apple-touch-icon.png') }}" rel="apple-touch-icon" sizes="180x180" />
+    <link href="{{ asset('storage/logo/favicon-32x32.png') }}" rel="icon" sizes="32x32" type="image/png" />
+    <link href="{{ asset('storage/logo/favicon-16x16.png') }}" rel="icon" sizes="16x16" type="image/png" />
+    <link href="{{ asset('storage/logo/favicon.ico') }}" rel="icon" /><!-- fonts -->
     <link href="{{ asset('fonts/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('fonts/Ionicons/css/ionicons.min.css') }}" rel="stylesheet" /><!-- Bootstrap core CSS -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -100,7 +100,11 @@
     </header>
 
     <main>
-       @yield('content')
+
+        @yield('content')
+
+        @include('layouts.footer')
+        
     </main>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
     @yield('scripts')
