@@ -278,14 +278,17 @@ body {
   text-align: center;
   margin-bottom: 3rem;
 }
+.partners .partners-logo {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
 .partners .partners-logo .partner-logo-slide {
   z-index: 100;
 }
 .partners .partners-logo .partner-logo-slide img {
   max-width: 100%;
   max-height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 50px;
 }
 
 .featurette .featurette-img img {

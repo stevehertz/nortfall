@@ -3,7 +3,7 @@
     <div class="carousel-inner">
 
         <div class="carousel-item active">
-            <img alt="" src="{{ asset('storage/sliding/multigrid.png') }}" />
+            <img alt="" src="{{ asset('storage/sliding/outsource.jpg') }}" />
             <div class="carousel-caption d-none d-md-block">
                 <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
                     <div class="d-flex justify-content-center align-items-center h-100">
@@ -125,6 +125,33 @@
                             </p>
                             <p>
                                 <a class="btn btn-lg btn-primary" href="storage/sliding/Solar - ENS72-18X-1.pdf">
+                                    Learn more
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img alt="" src="{{ asset('storage/sliding/residentials.png') }}" />
+            <div class="carousel-caption d-none d-md-block">
+                <div class="mask mb-5 pb-4" style="background-color: rgba(0, 0, 0, 0.7);">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-white">
+                            <h1>
+                                <strong>
+                                    Residential / Industrial / Substation Smart meters
+                                </strong>
+                            </h1>
+                            <p>
+                                We offer high quality smart meters that delivers business efficiency and reduces
+                                revenue leaks. The solutions we supply enables customer experience while reducing
+                                power costs. Talk to us today
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-primary" href="#">
                                     Learn more
                                 </a>
                             </p>

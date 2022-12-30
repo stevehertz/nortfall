@@ -355,12 +355,15 @@ body {
     }
 
     .partners-logo {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
         .partner-logo-slide {
             z-index: 100;
             img {
                 max-width : 100%;
                 max-height: 100%;
-                object-fit: cover;
+                height: 50px;
+                // object-fit: cover;
 
             }
         }
