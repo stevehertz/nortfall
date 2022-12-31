@@ -10,7 +10,7 @@
                         <div class="text-white">
                             <h1>
                                 <strong>
-                                    Outsource business power needs by utilizing data centers.
+                                    Outsource Business Power needs by utilizing our hitech solutions
                                 </strong>
                             </h1>
                             <p>
@@ -58,7 +58,7 @@
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white">
                             <h1><strong>EV Charging Solutions</strong></h1>
-                            <p>We ensure efficient EV Charging.</p>
+                            <p>Are you looking for an Electric Vehicle charging system. We supply and integrate EV charging systems with long term service guarantee</p>
                             <p><a class="btn btn-lg btn-primary"
                                     href="storage/sliding/Ensmart Power EV Charging Power Module.pdf">Learn
                                     more</a></p>
@@ -142,7 +142,7 @@
                         <div class="text-white">
                             <h1>
                                 <strong>
-                                    Residential / Industrial / Substation Smart meters
+                                    Residential/ Industrial/ Substation Smart meters
                                 </strong>
                             </h1>
                             <p>

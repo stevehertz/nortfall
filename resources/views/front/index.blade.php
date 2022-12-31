@@ -362,29 +362,33 @@
                     <hr class="rf-line" />
                 </div>
             </div>
-            <div class="clients-slider swiper">
-                <div class="row partners-logo">
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/abb-logo.png') }}" alt="">
-                    </div>
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/ensmart.png') }}" alt="">
-                    </div>
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/hitach.png') }}" alt="">
-                    </div>
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/png-clipart-honeywell-nyse-hon-industry-s-c-a-m-e-sistemi-s-r-l-others-text-logo.png') }}"
-                            alt="">
-                    </div>
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/schneider_electric_2007.svg.png') }}" alt="">
-                    </div>
-                    <div class="col-2 partner-logo-slide">
-                        <img src="{{ asset('storage/partners/siemens.png') }}" alt="">
-                    </div>
+
+            <div class="partners-logo owl-carousel owl-theme">
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/abb-logo.png') }}" alt="">
                 </div>
-                <div class="partners-logo-pagination"></div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/ensmart.png') }}" alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/hitach.png') }}" alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/png-clipart-honeywell-nyse-hon-industry-s-c-a-m-e-sistemi-s-r-l-others-text-logo.png') }}"
+                        alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/schneider_electric_2007.svg.png') }}" alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/siemens.png') }}" alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/ge.png') }}" alt="">
+                </div>
+                <div class="partner-logo-item">
+                    <img src="{{ asset('storage/partners/ziv.png') }}" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -402,46 +406,6 @@
                     navEl.classList.remove('navbar-scrolled');
                 }
             });
-
-            /**
-             * Clients Slider
-             */
-            new Swiper('.clients-slider', {
-                speed: 400,
-                loop: true,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false
-                },
-                slidesPerView: 'auto',
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                    clickable: true
-                },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 2,
-                        spaceBetween: 20
-                    },
-                    480: {
-                        slidesPerView: 3,
-                        spaceBetween: 20
-                    },
-                    640: {
-                        slidesPerView: 4,
-                        spaceBetween: 20
-                    },
-                    992: {
-                        slidesPerView: 6,
-                        spaceBetween: 20
-                    }
-                }
-            });
-
-
-
-
         });
     </script>
 @endsection

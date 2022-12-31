@@ -66,7 +66,7 @@
 
 </head>
 
-<body>
+<body>  
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container">
@@ -117,6 +117,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     @yield('scripts')
 </body>
 
