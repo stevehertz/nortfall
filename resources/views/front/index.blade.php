@@ -365,29 +365,29 @@
 
             <div class="partners-logo owl-carousel owl-theme">
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/abb-logo.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/abb-logo.png') }}" alt=""/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/ensmart.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/ensmart.png') }}" class="ensmart-logo" alt=""/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/hitach.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/hitach.png') }}" alt="Hitach">
                 </div>
                 <div class="partner-logo-item">
                     <img src="{{ asset('storage/partners/png-clipart-honeywell-nyse-hon-industry-s-c-a-m-e-sistemi-s-r-l-others-text-logo.png') }}"
-                        alt="">
+                        alt=""/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/schneider_electric_2007.svg.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/schneider_electric_2007.svg.png') }}" alt=""/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/siemens.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/siemens.png') }}" alt=""/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/ge.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/ge.png') }}" alt="" class="ge_logo"/>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="{{ asset('storage/partners/ziv.png') }}" alt="">
+                    <img src="{{ asset('storage/partners/ziv.png') }}" alt=""/>
                 </div>
             </div>
         </div>
