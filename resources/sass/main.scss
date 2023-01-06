@@ -107,7 +107,7 @@ body {
 
             .mega-menu {
                 position        : absolute;
-                min-width       : 500%;
+                min-width       : 400%;
                 background-color: $navBackground;
                 padding         : 1.5rem;
                 float           : left;
@@ -125,6 +125,10 @@ body {
                         text-decoration: none;
                         display        : block;
                         text-align     : left;
+
+                        &:hover {
+                            color: $secondaryColor;
+                        }
                     }
                 }
 
@@ -154,7 +158,8 @@ body {
     }
 }
 
-/* CUSTOMIZE THE CAROUSEL
+/* ---------------------------------------------------
+CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */

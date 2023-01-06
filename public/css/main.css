@@ -75,7 +75,7 @@ body {
 }
 .navbar ul .dropdown .mega-menu {
   position: absolute;
-  min-width: 500%;
+  min-width: 400%;
   background-color: #f1f1f1;
   padding: 1.5rem;
   float: left;
@@ -95,6 +95,9 @@ body {
   display: block;
   text-align: left;
 }
+.navbar ul .dropdown .mega-menu .col-md-4 a:hover {
+  color: #f58320;
+}
 .navbar ul .dropdown .mega-menu .row:after {
   content: "";
   display: table;
@@ -110,7 +113,8 @@ body {
   background-color: #3e8e41;
 }
 
-/* CUSTOMIZE THE CAROUSEL
+/* ---------------------------------------------------
+CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {

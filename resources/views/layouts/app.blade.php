@@ -48,18 +48,16 @@
                                 <div class="row">
 
                                     <div class="col-md-4">
-                                        <h4>Category 1</h4>
                                         <a href="#">Operations Performance Management</a>
                                         <a href="#">Digital Worker Solutions</a>
                                         <a href="#">Remote Operations</a>
                                         <a href="#">Grid Analytics</a>
                                         <a href="#">Spares and repairs</a>
-                                        <a href="#">Multibrand Maintenance</a>                                        </a>
+                                        <a href="#">Multibrand Maintenance</a> </a>
                                         <a href="#">Asset optimization</a>
                                     </div>
 
                                     <div class="col-md-4">
-                                        <h4>Category 2</h4>
                                         <a href="#">Power Audit Services</a>
                                         <a href="#">Oil and Gas Security Systems Audit</a>
                                         <a href="#">Building Technology Services</a>
@@ -70,7 +68,6 @@
                                     </div>
 
                                     <div class="col-md-4">
-                                        <h4>Category 3</h4>
                                         <a href="#">Technology Accelerator</a>
                                         <a href="#">Building Management System Services</a>
                                         <a href="#">Critical Power and Cooling Services</a>
@@ -78,7 +75,97 @@
                                         <a href="#">Industrial Automation Services</a>
                                         <a href="#">Safety Services</a>
                                     </div>
-                                    
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <li class="nav-item dropbtn">
+                                <a class="nav-link" href="#products">
+                                    Products <i class="fa fa-caret-down"></i>
+                                </a>
+                            </li>
+                            <div class="mega-menu">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="storage/sliding/Ensmart Power EV Charging Power Module.pdf">
+                                            EV Charging Power
+                                        </a>
+                                        <a href="storage/sliding/Solar - ENS72-18X-1.pdf">
+                                            Solar ENS72
+                                        </a>
+                                        <a href="storage/sliding/MultiGrid-Hybrid.pdf">
+                                            Multigrid Systems
+                                        </a>
+                                        <a href="storage/sliding/IsolationTransformer EN.pdf">
+                                            Isolation Transformer
+                                        </a>
+                                        <a href="">
+                                            Smart Meters
+                                        </a>
+                                        <a href="">
+                                            Systems Automations solutions
+                                        </a>
+                                        <a href="">
+                                            SCADA &amp; Telecommunication
+                                        </a>
+                                        <a href="">
+                                            Gear Box
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="">
+                                            Access Control
+                                        </a>
+                                        <a href="">
+                                            Control Panels
+                                        </a>
+                                        <a href="">
+                                            Distribution Management Solutions
+                                        </a>
+                                        <a href="">
+                                            Intrusion Detection systems
+                                        </a>
+                                        <a href="">
+                                            Fire life safety
+                                        </a>
+                                        <a href="">
+                                            Building
+                                        </a>
+                                        <a href="">
+                                            Aerospace
+                                        </a>
+                                        <a href="">
+                                            Automation &amp; Productivity
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="">
+                                            Sensing Technologies
+                                        </a>
+                                        <a href="">
+                                            Industrial Chemicals and Material
+                                        </a>
+                                        <a href="">
+                                            Smart Building products
+                                        </a>
+                                        <a href="">
+                                            Advanced Sensing Technologies
+                                        </a>
+                                        <a href="">
+                                            Adsorbent and Catalyst
+                                        </a>
+                                        <a href="">
+                                            Industrial Chemicals and Material
+                                        </a>
+                                        <a href="">
+                                            Offshore Logistics
+                                        </a>
+                                        <a href="">
+                                            Transmission Solutions
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -87,20 +174,7 @@
                             <a class="nav-link" href="#portfolio">Portfolio </a>
                         </li>
 
-                        <div class="dropdown">
-                            <li class="nav-item dropbtn">
-                                <a class="nav-link" href="#products">
-                                    Products <i class="fa fa-caret-down"></i>
-                                </a>
-                            </li>
-                            <div class="dropdown-content">
-                                <a href="storage/sliding/Ensmart Power EV Charging Power Module.pdf">EV Charging
-                                    Power</a>
-                                <a href="storage/sliding/Solar - ENS72-18X-1.pdf">Solar ENS72</a>
-                                <a href="storage/sliding/MultiGrid-Hybrid.pdf">Multigrid Systems</a>
-                                <a href="storage/sliding/IsolationTransformer EN.pdf">Isolation Transformer</a>
-                            </div>
-                        </div>
+                        
                         <li class="nav-item"><a class="nav-link" href="#about_us">About Us </a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact_us">Contact Us </a></li>
                     </ul>
